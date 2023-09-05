@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #ffffff;
+}
+img{
+   width: 200px;
+   height: 200px;
+   display: block;
+   margin-left: auto;
+}
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   background-color: #398cbf;
+}
+
+h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 3.5rem;
+   font-weight: 400;
+}
+
+.footer{
+   width: 100%;
+   margin: 0;
+   padding: 18px;
+   text-align: center;
+   background-color: #14488c;
+}
+
+.main {
+   min-height: 70vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.game {
+   box-shadow: 10px 5px 15px #0a1f49;
+}
+
+.game,
+form {
+   background-color: #14488c;
+   padding: 1.8rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.game>div {
+   padding: 0.5rem;
+}
+
+.form input,
+.form label,
+.form button {
+   margin-top: 1rem;
+}
+
+.form input,
+.form button {
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0.5rem;
+   color: #3b0404;
+}
+
+.form button {
+   cursor: pointer;
+   color: black;
+}
+
+.form button:hover {
+   filter: opacity(0.8);
+}

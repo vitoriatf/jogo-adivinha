@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <title>Jogo Adivinha</title>
+</head>
+
+<body>
+   <header>
+      <img src="imagens/if.png" alt="Logo do Instituto Federal">
+   </header>
+   <main class="main">
+      <section class="game">
+         <h1>Adivinhe o Número</h1>
+         <div class="status" id="status">Adivinhe o número sorteado</div>
+         <div class="tentativa" id="tentativa">Tentativa: 0</div>
+         <form class="form" id="form">
+            <label for="nomeJogador">Nome do Jogador:</label>
+            <input type="text" name="nomeJogador" id="nomeJogador" required>
+            <label for="chute">Chute um número entre 1 e 50:</label>
+            <input type="number" name="chute" id="chute" min="1" max="50" required>
+            <button id="btnVerifica">Verificar</button>
+         </form>
+      </section>
+   </main>
+   <footer class="footer">
+      <h3>
+         &copy; Vitória Takeshita Ferranti - GU3024717 <br>
+         Técnico em Informática para Internet - 2° INFO
+      </h3>
+   </footer>
+   <script src="js/script.js">
+      
+   </script>
+</body>
+
+</html>
